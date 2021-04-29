@@ -1,0 +1,40 @@
+.judul {
+	margin-top: 75px;
+	font-weight: normal;
+	font-size: 24px;
+	color: #FFF;
+}
+
+.ui-jqgrid .loading
+{
+	border: none !important;
+	background: none !important;
+}
+
+.pointer { cursor:pointer; }
+
+.bold { font-weight: bold;}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background: #F4F4F4;
+  border: 1px solid #DDDDDD;
+  line-height: 15px;
+  font-weight: bold;
+  color: #676a6c;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.ui-jqgrid tr.jqgrow td {
+    word-wrap: break-word; /* IE 5.5+ and CSS3 */
+    white-space: pre-wrap; /* CSS3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    overflow: hidden;
+    height: auto;
+    vertical-align: top;
+    padding-top: 3px;
+    padding-bottom: 3px
+}
